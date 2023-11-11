@@ -128,3 +128,12 @@ body {
 .winning-message.show {
     display: flex;
 }
+
+/*
+
+QUESTIONS:
+[] How do the properties in the root selector work?
+[] Is it good code practice to replace px with em for these property values?
+[] What are reasons to use the var values (ie .cell)?
+
+*/

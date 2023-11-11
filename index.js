@@ -93,3 +93,14 @@ function checkWin(currentClass) {
     });
   });
 }
+
+/*
+
+QUESTIONS:
+[] Is it possible to dynamically select cells that result in a winner? A draw?
+[] Why use getElementById when you can use querySelector with an id?
+[] How is the spread operator working in the code block at lines 62-69?
+[] What is the difference between "contains" and "includes"?
+[] When does it make sense to use "some" instead of "every"?
+
+*/
