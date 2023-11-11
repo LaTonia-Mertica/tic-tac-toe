@@ -1,2 +1,5 @@
-# tic-tac-toe
-simple tic tac toe game created from source code (codebrainer https://www.codebrainer.com/blog/tic-tac-toe-javascript-game)
+# TIC TAC TOE
+
+*tic tac toe game*
+
+###### source code: [make your own](https://www.codebrainer.com/blog/tic-tac-toe-javascript-game)
