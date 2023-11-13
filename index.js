@@ -13,6 +13,7 @@ const WINNING_COMBINATIONS = [
 
 const cellElements = document.querySelectorAll("[data-cell]");
 const boardElement = document.getElementById("board");
+// console.log(boardElement);
 const winningMessageElement = document.getElementById("winningMessage");
 const restartButton = document.getElementById("restartButton");
 const winningMessageTextElement = document.getElementById("winningMessageText");
@@ -52,8 +53,8 @@ function endGame(draw) {
   if (draw) {
     winningMessageTextElement.innerText = "DRAW!";
   } else {
-    winningMessageTextElement.innerText = `PLAYER WITH ${
-      isPlayer_O_Turn ? "O's" : "X's"
+    winningMessageTextElement.innerText = `${
+      isPlayer_O_Turn ? "O" : "X"
     } WINS!`;
   }
   winningMessageElement.classList.add("show");
